@@ -4,9 +4,9 @@
       <home class="section home"></home>
       <introductions class="section introductions"></introductions>
       <skills class="section skills"></skills>
-      <work-experience class="section"></work-experience>
-      <projects class="section"></projects>
-      <articles class="section"></articles>
+      <work-experience class="section work-experience"></work-experience>
+      <projects class="section projects"></projects>
+      <articles class="section articles"></articles>
     </full-page>
   </div>
 </template>

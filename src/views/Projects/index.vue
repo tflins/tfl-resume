@@ -1,6 +1,6 @@
 <template>
   <div class="page projects">
-    <h1>项目</h1>
+    <h1 class="title">项目经验</h1>
   </div>
 </template>
 

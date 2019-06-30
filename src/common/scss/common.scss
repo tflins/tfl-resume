@@ -16,14 +16,7 @@ html {
       flex-direction: column;
     }
 
-    .introductions.section>div {
-      display: flex;
-      justify-content: flex-start;
-      // align-items: center;
-      flex-direction: column;
-    }
-
-    .skills.section>div {
+    .section>div {
       display: flex;
       justify-content: flex-start;
       flex-direction: column;

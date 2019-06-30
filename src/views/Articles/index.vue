@@ -1,6 +1,6 @@
 <template>
   <div class="page articles">
-    <h1>博客文章</h1>
+    <h1 class="title">博客文章</h1>
   </div>
 </template>
 
