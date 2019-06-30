@@ -1,6 +1,6 @@
 <template>
   <div class="page introductions">
-    <h1>自我介绍</h1>
+    <h1 class="title">自我介绍</h1>
   </div>
 </template>
 
@@ -15,6 +15,10 @@ export default {
   
 <style rel="stylesheet/scss" lang="scss" scoped>
 .introductions {
-  background-color: aqua;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 </style>
