@@ -3,7 +3,7 @@
     <h1 class="title">自我介绍</h1>
     <div class="page-body">
       <div class="self-description">
-        <p>2019届计算机专业毕业生，擅长 JavaScript 和 Node.js，熟练使用VUE全家桶。</p>
+        <p>2019届计算机专业毕业生，擅长 JavaScript 和 Node.js，熟练使用VUE全家桶，寻求一份前端工程师的工作。</p>
       </div>
       <div class="self-informations">
         <div class="info-row">

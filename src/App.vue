@@ -3,7 +3,7 @@
     <full-page :options="options">
       <home class="section home"></home>
       <introductions class="section introductions"></introductions>
-      <skills class="section"></skills>
+      <skills class="section skills"></skills>
       <work-experience class="section"></work-experience>
       <projects class="section"></projects>
       <articles class="section"></articles>
