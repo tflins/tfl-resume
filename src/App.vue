@@ -32,7 +32,7 @@ export default {
         navigation: true,
         // scrollBar: true,
         // navigation: true,
-        anchors: ["page1", "page2", "page3"],
+        // anchors: ["page1", "page2", "page3"],
         sectionsColor: [
           "#41b883",
           "#ff5f45",
