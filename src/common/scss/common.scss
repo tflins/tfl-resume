@@ -1,15 +1,31 @@
 html {
   height: 100%;
+  width: 100%;
   body {
     height: 100%;
+    width: 100%;
   }
   #app {
     height: 100%;
+    width: 100%;
+
+    .home.section > div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .introductions.section>div {
+      display: flex;
+      flex-direction: column;
+    }
   }
 }
 
 .page {
   height: 100%;
+  width: 100%;
 
   // padding: 40px;
 
@@ -17,7 +33,7 @@ html {
     margin-top: 40px;
     line-height: 80px;
     text-align: center;
-    color: rgba(255,255,255,.9);
-    text-shadow: 0 0 6px rgba(0,0,0,.2);
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
   }
 }

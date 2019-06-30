@@ -30,10 +30,8 @@ export default {
   
 <style rel="stylesheet/scss" lang="scss" scoped>
 .home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  
+
 
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
   color: aliceblue;
