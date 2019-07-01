@@ -3,10 +3,10 @@
     <h1 class="title">了解更多</h1>
     <div class="more-body">
       <div class="contact">
-        <a href class="blog">个人博客</a> |
-        <a href class="github">Github</a>
+        <a href="http://tflin.com/" target="_blank" class="blog">个人博客</a> |
+        <a href="https://github.com/tflins" target="_blank" class="github">Github</a>
       </div>
-      <a href class="resume">下载PDF简历</a>
+      <a href="http://tflin.com/about/me.pdf" download="前端开发实习生_谭丰林.pdf" class="resume">下载PDF简历</a>
     </div>
   </div>
 </template>
