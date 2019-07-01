@@ -1,4 +1,10 @@
-# tfl-resume
+# 谭丰林的简历 | [查看演示](http://tflin.com/resume/)
+
+---
+
+## 介绍
+
+采用Vue.js进行开发的个人简历
 
 ## Project setup
 ```
