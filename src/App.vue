@@ -6,7 +6,7 @@
       <skills class="section skills"></skills>
       <work-experience class="section work-experience"></work-experience>
       <projects class="section projects"></projects>
-      <articles class="section articles"></articles>
+      <more class="section more"></more>
     </full-page>
   </div>
 </template>
@@ -17,7 +17,7 @@ import Introductions from "./views/Introductions";
 import Skills from "./views/Skills";
 import WorkExperience from "./views/WorkExperience";
 import Projects from "./views/Projects";
-import Articles from "./views/Articles";
+import More from "./views/More";
 
 export default {
   name: "app",
@@ -53,7 +53,7 @@ export default {
     Skills,
     WorkExperience,
     Projects,
-    Articles
+    More
   }
 }
 </script>
