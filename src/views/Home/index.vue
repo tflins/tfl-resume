@@ -21,7 +21,7 @@ export default {
   data() {
     return {
       name: "谭丰林",
-      shortDescription: '前端新人，请多多指教'
+      shortDescription: '要么坚持，要么放弃'
     }
   },
   components: {}
