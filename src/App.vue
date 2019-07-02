@@ -28,7 +28,7 @@ export default {
         afterLoad: this.afterLoad,
         scrollOverflow: true,
         // scrollBar: true,
-        menu: "#menu",
+        // menu: "#menu",
         navigation: true,
         // scrollBar: true,
         // navigation: true,

@@ -167,4 +167,35 @@ export default {
     }
   }
 }
+
+@media (max-width: 480px) {
+  .projects {
+    .projects-body {
+      position: relative;
+      height: 450px;
+      .card-container {
+        // display: block;
+        width: 1120px;
+        position: absolute;
+        left: 75%;
+        // top: 10%;
+        transform: translate(-50%);
+        // height: 450px;
+        // padding: 0 10px;
+
+        .item-card {
+          // margin: 10px 5px;
+          // display: inline-block;
+          width: 280px;
+        }
+      }
+      .footer {
+        position: absolute;
+        bottom: -80px;
+        width: 80%;
+        margin-top: 20px;
+      }
+    }
+  }
+}
 </style>
