@@ -11,14 +11,14 @@
             展,并封装了多个功能模块的弹窗供别人使用,实习期间绩效评定全优。
           </p>
         </div>
-        <div class="item-card">
+        <div
+          class="item-card"
+          @touchmove="touchmove"
+          @touchstart="touchstart"
+        >
           <h2 class="name">SIMO APP</h2>
-          <p
-            class="description"
-          >实习期间参与的公司项目，SIMO一体化智能运维系统的移动端混合APP,使用Ajax进行数据交互达到前后端分离,采用MUI进行开发,REM方案对不同屏幕尺寸进行适配,采用HBuilder进行打包。</p>
-          <p
-            class="description"
-          >负责根据UI图还原设计稿，根据后端提供的接口实现相应功能和渲染数据，使用Ajax封装与后端进行交互的API，总共完成可APP的告警模块,资源模块,和首页相关模块,用户可以根据WEB端的用户信息登录APP。</p>
+          <p class="description">实习期间参与的公司项目，SIMO一体化智能运维系统的移动端混合APP,使用Ajax进行数据交互达到前后端分离,采用MUI进行开发,REM方案对不同屏幕尺寸进行适配,采用HBuilder进行打包。</p>
+          <p class="description">负责根据UI图还原设计稿，根据后端提供的接口实现相应功能和渲染数据，使用Ajax封装与后端进行交互的API，总共完成可APP的告警模块,资源模块,和首页相关模块,用户可以根据WEB端的用户信息登录APP。</p>
         </div>
         <div class="item-card">
           <h2 class="name">欣音悦</h2>
@@ -26,9 +26,13 @@
             独立开发的以歌单分享为主的音乐播放的 webapp，前端使用Vue全家桶进行开发,后端使用Koa2框架,音乐数据来自QQ音乐,用户信息及歌单信息存入本地数据库
             MongoDB中，在用户登录上采用jwt进行token验证。
           </p>
-          <a href="https://github.com/tflins/vue-music" target="_blank" class="tool">
-              <i class="iconfont icon-lianjie"></i>
-              项目地址
+          <a
+            href="https://github.com/tflins/vue-music"
+            target="_blank"
+            class="tool"
+          >
+            <i class="iconfont icon-lianjie"></i>
+            项目地址
           </a>
         </div>
         <div class="item-card">
@@ -37,14 +41,21 @@
             独立开发的个人项目,使用原生 JavaScript 基于原型的方式封装的弹出图片预览插件,自动适配图片大小,开箱既用不依赖任
             何框架或库,项目已开源至Github。
           </p>
-          <a href="https://github.com/tflins/lightbox" target="_blank" class="tool">
-              <i class="iconfont icon-lianjie"></i>
-              项目地址
+          <a
+            href="https://github.com/tflins/lightbox"
+            target="_blank"
+            class="tool"
+          >
+            <i class="iconfont icon-lianjie"></i>
+            项目地址
           </a>
         </div>
       </div>
       <div class="footer">
-        <a href="https://github.com/tflins" target="_blank">
+        <a
+          href="https://github.com/tflins"
+          target="_blank"
+        >
           <button class="more-btn">
             <i class="iconfont icon-git"></i>
             前往 Github 查看更多
@@ -57,11 +68,20 @@
 
 <script>
 export default {
-  data() {
-    return {};
-  },
-  components: {}
-};
+  methods: {
+    touchmove(e) {
+      this.touchEndX = e.changedTouches[0].screenX
+      if (this.touchStartX - this.touchEndX > 20) {
+        console.log('向左')
+      } else if (this.touchEndX - this.touchStartX > 20) {
+        console.log('向右')
+      }
+    },
+    touchstart(e) {
+      this.touchStartX = e.changedTouches[0].screenX
+    }
+  }
+}
 </script>
   
 <style rel="stylesheet/scss" lang="scss" scoped>

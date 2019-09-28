@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import './common/scss/fullpage.min.css'
+
 import 'fullpage.js/vendors/scrolloverflow'
 import VueFullPage from 'vue-fullpage.js'
 
