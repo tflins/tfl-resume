@@ -3,7 +3,7 @@
     <h1 class="title">自我介绍</h1>
     <div class="page-body">
       <div class="self-description">
-        <p>2019届计算机专业毕业生，擅长 JavaScript 和 Node.js，熟练使用VUE全家桶，目前在威锋网任前端开发工程师</p>
+        <p>2019届计算机专业毕业生，擅长 JavaScript 和 Node.js，熟练使用 VUE 全家桶和 TypeScript，目前在威锋网任前端开发工程师</p>
       </div>
       <div class="self-informations">
         <div class="info-row">
@@ -100,7 +100,7 @@ export default {
         background-color: #fff;
         width: 65%;
 
-        text-align: center;
+        text-align: justify;
         padding: 20px;
         margin-top: 40px;
         border-radius: 4px;
@@ -111,14 +111,19 @@ export default {
         }
 
         .info-row {
-          margin: 25px 0;
+          margin: 0;
           display: flex;
-          flex-direction: row;
+          flex-direction: column;
           justify-content: space-around;
 
           .info-item {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+
             .iconfont {
-              font-size: 20px;
+              margin-right: 20px;
+              font-size: 30px;
             }
           }
         }
