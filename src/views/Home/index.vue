@@ -5,18 +5,13 @@
     </div>
     <h1 class="name">{{ name }}</h1>
     <p class="shortDescription">{{ shortDescription }}</p>
-    <div class="social">
-      <a class="item" href="http://tflin.com" target="_blank">
-        <i class="iconfont icon-boke3"></i>
-      </a>
-      <a class="item" href="https://github.com/tflins" target="_blank">
-        <i class="iconfont icon-git"></i>
-      </a>
-    </div>
+    <social-bar></social-bar>
   </div>
 </template>
 
 <script>
+import SocialBar from '@/components/SocialBar';
+
 export default {
   data() {
     return {
@@ -24,7 +19,9 @@ export default {
       shortDescription: '要么坚持，要么放弃'
     }
   },
-  components: {}
+  components: {
+    SocialBar
+  }
 }
 </script>
   
@@ -61,40 +58,6 @@ export default {
   .shortDescription {
     color: #eee;
     line-height: 60px;
-  }
-
-  .social {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 100%;
-    height: 80px;
-
-    .item {
-      width: 60px;
-      height: 60px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 30px;
-
-      border: 1px solid #fff;
-      border-radius: 50%;
-
-      .iconfont {
-        font-size: 50px;
-      }
-    }
-
-    .item:hover {
-      color: #000;
-      border: 1px solid #000;
-    }
-
-    a {
-      color: #fff;
-    }
   }
 }
 </style>
