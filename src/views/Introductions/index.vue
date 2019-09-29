@@ -122,8 +122,8 @@ export default {
             margin: 10px 0;
 
             .iconfont {
-              margin-right: 20px;
-              font-size: 30px;
+              margin-right: 12px;
+              font-size: 16px;
             }
           }
         }
