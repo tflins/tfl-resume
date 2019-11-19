@@ -51,17 +51,17 @@
           </a>
         </div>
       </div>
-      <div class="footer">
-        <a
-          href="https://github.com/tflins"
-          target="_blank"
-        >
-          <button class="more-btn">
-            <i class="iconfont icon-git"></i>
-            前往 Github 查看更多
-          </button>
-        </a>
-      </div>
+    </div>
+    <div class="footer">
+      <a
+        href="https://github.com/tflins"
+        target="_blank"
+      >
+        <button class="more-btn">
+          <i class="iconfont icon-git"></i>
+          前往 Github 查看更多
+        </button>
+      </a>
     </div>
   </div>
 </template>
@@ -86,6 +86,7 @@ export default {
   
 <style rel="stylesheet/scss" lang="scss" scoped>
 .projects {
+  position: relative;
   background-image: linear-gradient(
     to right,
     #3ab5b0 0%,
@@ -118,6 +119,7 @@ export default {
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
         border: 1px solid rgba(255, 255, 255, 0.3);
         transition: all 300ms ease;
+        padding: 20px 12px;
 
         display: flex;
         flex-direction: column;
@@ -166,23 +168,27 @@ export default {
         }
       }
     }
+  }
+  .footer {
+    position: absolute;
+    margin-top: 50px;
+    width: 40%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
 
-    .footer {
-      margin-top: 50px;
-      width: 40%;
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      height: 50px;
-      .more-btn {
-        width: 100%;
-        height: 100%;
-        background-color: #fff;
-        border-radius: 4px;
-        padding: 5px;
+    .more-btn {
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+      border-radius: 4px;
+      padding: 5px;
 
-        &:hover {
-          opacity: 1;
-          background: rgba(255, 255, 255, 0.2);
-        }
+      &:hover {
+        opacity: 1;
+        background: rgba(255, 255, 255, 0.2);
       }
     }
   }
@@ -192,29 +198,28 @@ export default {
   .projects {
     .projects-body {
       position: relative;
-      height: 450px;
+      height: 350px;
       .card-container {
-        // display: block;
         width: 1120px;
         position: absolute;
         left: 75%;
-        // top: 10%;
         transform: translate(-50%);
-        // height: 450px;
-        // padding: 0 10px;
 
         .item-card {
-          // margin: 10px 5px;
-          // display: inline-block;
           width: 280px;
+          height: 300px;
+
+          .description {
+            font-size: 12px;
+          }
         }
       }
-      .footer {
-        position: absolute;
-        bottom: -80px;
-        width: 80%;
-        margin-top: 20px;
-      }
+    }
+    .footer {
+      position: absolute;
+      bottom: 5%;
+      width: 80%;
+      margin-top: 20px;
     }
   }
 }

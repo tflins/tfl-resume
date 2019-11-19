@@ -5,42 +5,19 @@
       <div class="self-description">
         <p>2019届计算机专业毕业生，擅长 JavaScript 和 Node.js，熟练使用 VUE 全家桶和 TypeScript ，目前在威锋网任前端开发工程师</p>
       </div>
-      <div class="self-informations">
-        <div class="info-row">
-          <div class="info-item">
-            <i class="iconfont icon-shengri"></i>
-            <p>1997.03.09</p>
-          </div>
-          <div class="info-item">
-            <i class="iconfont icon-daxue"></i>
-            <p>北方民族大学·计算机</p>
-          </div>
-          <div class="info-item">
-            <i class="iconfont icon-icon-location"></i>
-            <p>广东·深圳</p>
-          </div>
-        </div>
-        <div class="info-row">
-          <div class="info-item">
-            <i class="iconfont icon-email"></i>
-            <p>tflins@163.com</p>
-          </div>
-          <div class="info-item">
-            <i class="iconfont icon-dianhua"></i>
-            <p>+86 18209684180</p>
-          </div>
-        </div>
-      </div>
+
+      <self-informations></self-informations>
     </div>
   </div>
 </template>
 
 <script>
+import SelfInformations from '@/components/SelfInformations'
+
 export default {
-  data() {
-    return {}
-  },
-  components: {}
+  components: {
+    SelfInformations
+  }
 }
 </script>
   
@@ -54,8 +31,7 @@ export default {
     align-items: center;
     flex-direction: column;
 
-    .self-description,
-    .self-informations {
+    .self-description {
       background-color: #fff;
       width: 65%;
 
@@ -67,19 +43,6 @@ export default {
       p {
         font-size: 14px;
         color: #444;
-      }
-
-      .info-row {
-        margin: 25px 0;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-
-        .info-item {
-          .iconfont {
-            font-size: 40px;
-          }
-        }
       }
     }
   }
@@ -95,8 +58,7 @@ export default {
       align-items: center;
       flex-direction: column;
 
-      .self-description,
-      .self-informations {
+      .self-description {
         background-color: #fff;
         width: 65%;
 
@@ -108,24 +70,6 @@ export default {
         p {
           font-size: 14px;
           color: #444;
-        }
-
-        .info-row {
-          margin: 0;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-around;
-
-          .info-item {
-            display: flex;
-            align-items: center;
-            margin: 10px 0;
-
-            .iconfont {
-              margin-right: 12px;
-              font-size: 16px;
-            }
-          }
         }
       }
     }
