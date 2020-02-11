@@ -6,10 +6,11 @@
         <h2 class="job">深圳威锋网 前端开发工程师</h2>
         <p class="time">2019年7月 - 至今</p>
         <p class="content">
-          负责重构威锋PC前端，独立完成项目架构的建设，新版威锋网采用 Nuxt.js 进行前端同构，正在开发中 预览地址 beta.feng.com
+          负责重构并开发新版威锋网PC前端，独立完成项目架构的建设，并负责部署上线。新版威锋网采用 Nuxt.js 进行前端同构，并采用了一系列的性能优化和部署策略，提高 Node 渲染服务器的并发量。
+          <a href="https://www.feng.com/">网站地址 www.feng.com</a>
         </p>
         <p class="skills">
-          相关技术：Vue.js、Nuxt.js、前端同构、服务端渲染
+          相关技术：Vue.js、Nuxt.js、Node.js、前端同构、服务端渲染、websocket
         </p>
       </div>
       <div class="item">

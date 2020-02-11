@@ -4,11 +4,11 @@
     <div class="skills-body">
       <div class="tag-panel">
         <div class="tag familiar">C语言</div>
-        <div class="tag familiar">Webpack</div>
+        <div class="tag expert">Webpack</div>
       </div>
       <div class="tag-panel">
         <div class="tag familiar">Bootstrap</div>
-        <div class="tag expert">jQuery</div>
+        <div class="tag familiar">jQuery</div>
         <div class="tag expert">Vue.js</div>
         <div class="tag expert">Git</div>
         <div class="tag expert">Scss</div>
@@ -16,6 +16,7 @@
       <div class="tag-panel">
         <div class="tag expert">HTML5</div>
         <div class="tag expert">JavaScript(ES5/ES6+)</div>
+        <div class="tag expert">Nuxt.js</div>
         <div class="tag expert">CSS</div>
       </div>
       <div class="tag-panel">
