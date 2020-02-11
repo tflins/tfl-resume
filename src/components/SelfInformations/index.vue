@@ -29,6 +29,7 @@ export default {
         ],
         [
           { text: 'tflins@163.com', iconName: 'icon-email' },
+          { text: '威锋网', iconName: 'icon-gongsi' },
           { text: '+86 18209684180', iconName: 'icon-dianhua' }
         ]
       ]

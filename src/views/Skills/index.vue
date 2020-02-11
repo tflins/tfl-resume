@@ -82,4 +82,10 @@ export default {
     }
   }
 }
+
+@media (max-width: 480px) {
+  .skills-body {
+    
+  }
+}
 </style>

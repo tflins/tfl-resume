@@ -1,0 +1,72 @@
+{
+  "id": "1268573",
+  "name": "tfl-resume",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12648604",
+      "name": "公司",
+      "font_class": "gongsi",
+      "unicode": "e6dd",
+      "unicode_decimal": 59101
+    },
+    {
+      "icon_id": "7249976",
+      "name": "链接",
+      "font_class": "lianjie",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "174615",
+      "name": "位置",
+      "font_class": "icon-location",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "390381",
+      "name": "大学",
+      "font_class": "daxue",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "472827",
+      "name": "email",
+      "font_class": "email",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "488502",
+      "name": "博客",
+      "font_class": "boke3",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "1137213",
+      "name": "生日",
+      "font_class": "shengri",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    },
+    {
+      "icon_id": "7334992",
+      "name": "github",
+      "font_class": "git",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "7951393",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}
