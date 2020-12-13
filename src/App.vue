@@ -1,13 +1,25 @@
 <template>
   <div id="app">
-    <full-page :options="options">
-      <home class="section home"></home>
-      <introductions class="section introductions"></introductions>
-      <skills class="section skills"></skills>
-      <work-experience class="section work-experience"></work-experience>
-      <projects class="section projects"></projects>
-      <more class="section more"></more>
-    </full-page>
+    <div class="t-full-page">
+      <div class="t-page">
+        <home class="home section"></home>
+      </div>
+      <div class="t-page">
+        <introductions class="section introductions"></introductions>
+      </div>
+      <div class="t-page">
+        <skills class="section skills"></skills>
+      </div>
+      <div class="t-page">
+        <work-experience class="section work-experience"></work-experience>
+      </div>
+      <div class="t-page">
+        <projects class="section projects"></projects>
+      </div>
+      <div class="t-page">
+        <more class="section more"></more>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -20,8 +32,12 @@ import WorkExperience from './views/WorkExperience'
 import Projects from './views/Projects'
 import More from './views/More'
 
+import TFullPage from './lib/t-full-page'
+import './lib/t-full-page.css'
+
 export default {
   name: 'app',
+
   data() {
     return {
       options: {
@@ -43,6 +59,7 @@ export default {
       }
     }
   },
+
   components: {
     Home,
     Introductions,
@@ -50,6 +67,12 @@ export default {
     WorkExperience,
     Projects,
     More
+  },
+
+  mounted() {
+    this.$nextTick(() => {
+      this.tFullPage = new TFullPage()
+    })
   }
 }
 </script>

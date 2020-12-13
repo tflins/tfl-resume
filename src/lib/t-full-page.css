@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+.t-full-page {
+  position: relative;
+  top: 0;
+  transition: all 1000ms ease; }
+  .t-full-page .t-page {
+    height: 100%; }
+  .t-full-page__nav {
+    position: fixed;
+    top: 50%;
+    right: 10px; }
+    .t-full-page__nav .nav-list {
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+      .t-full-page__nav .nav-list-item {
+        width: 15px;
+        height: 15px;
+        background-color: #fff;
+        border-radius: 50%;
+        cursor: pointer; }
+        .t-full-page__nav .nav-list-item:not(:last-child) {
+          margin-bottom: 10px; }
+        .t-full-page__nav .nav-list-item.active {
+          background-color: #000; }
